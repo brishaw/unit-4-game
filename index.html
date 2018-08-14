@@ -13,8 +13,8 @@
         <header>
             <!-- Fixed navbar -->
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                <a class="navbar-brand" href="#">Fixed navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+                <a class="navbar-brand" href="#">Crystal Collector</a>
+                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -32,33 +32,70 @@
                             <a class="nav-link disabled" href="#">Disabled</a>
                         </li>
                     </ul>
-                    <form class="form-inline mt-2 mt-md-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </div>
+                </div> -->
             </nav>
         </header>
         
         <!-- Begin page content -->
         <main role="main" class="container">
-            <h1 class="mt-5">Sticky footer with fixed navbar</h1>
-            <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar
-                has been added with
-                <code>padding-top: 60px;</code> on the
-                <code>body &gt; .container</code>.</p>
-            <p>Back to
-                <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
+            <!-- <h1 class="mt-5">Crystal Collector</h1> -->
+            <div class="row">
+                <div class="col-md-3"></div>
+                    <div class="col-md-6"> 
+                        <div class="row">
+                            <h2 class="target">Target Number</h2>
+                        </div>
+                        <div class="row">          
+                            <div id="random-number"></div>
+                        </div>
+                    </div>
+                <div class="col-md-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <h2 class="score">Your Score</h2>
+                        </div>
+                        <div class="row">
+                            <div id="player-number"></div>
+                        </div>
+                    </div>
+                <div class="col-md-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <button id="btn1" data-value=""></button>
+                </div>
+                <div class="col-md-3">
+                    <button id="btn2" data-value=""></button>
+                </div>
+                <div class="col-md-3">
+                    <button id="btn3" data-value=""></button>
+                </div>
+                <div class="col-md-3">
+                <button id="btn4" data-value=""></button>
+                </div>
+            </div>
+            <div class="row mt-25">
+                <div class="col-md-6">
+                    <h2 id="wins">Wins:</h2>
+                </div>
+                <div class="col-md-6">
+                    <h2 id="losses">Losses:</h2>        
+                </div>
+            </div>
         </main>
-        
+
         <footer class="footer">
             <div class="container">
-                <span class="text-muted">Place sticky footer content here.</span>
+                <span class="text-muted">2018 Brian Shaw</span>
             </div>
         </footer>
-        <script src="assets/javascript/game.js"></script>
+        
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
+        <script src="assets/javascript/game.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
             crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"

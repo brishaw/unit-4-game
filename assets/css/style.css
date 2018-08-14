@@ -35,3 +35,50 @@ body > .container {
 code {
   font-size: 80%;
 }
+
+/*------------------
+-----------------------*/
+
+#random-number, #player-number {
+    height: 150px;
+    width: 100%;
+    padding: 25px;
+    margin: 0 auto 25px 0;
+    border: 2px solid #000000;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.target, .score {
+  margin-top: 25px;
+}
+
+#btn1, #btn2, #btn3, #btn4 {
+  cursor: pointer;
+  outline: none;
+  width: 135px;
+  height: 135px;
+  outline: none;
+}
+
+#btn1 {
+  background: url(../images/crystal_1.png) center center no-repeat;
+}
+
+#btn2 {
+  background: url(../images/crystal_2.png) center center no-repeat;
+}
+
+#btn3 {
+  background: url(../images/crystal_3.png) center center no-repeat;
+}
+
+#btn4 {
+  background: url(../images/crystal_4.png) center center no-repeat;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
