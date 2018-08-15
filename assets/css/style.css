@@ -55,15 +55,20 @@ code {
   margin-top: 25px;
 }
 
-#btn1, #btn2, #btn3, #btn4 {
+#crystals img {
   cursor: pointer;
   outline: none;
   width: 135px;
   height: 135px;
   outline: none;
+  margin-right: 100px;
 }
 
-#btn1 {
+#crystals img:last-child {
+  margin-right: 0;
+}
+
+/* #btn1 {
   background: url(../images/crystal_1.png) center center no-repeat;
 }
 
@@ -77,7 +82,7 @@ code {
 
 #btn4 {
   background: url(../images/crystal_4.png) center center no-repeat;
-}
+} */
 
 .mt-25 {
   margin-top: 25px;
