@@ -33,6 +33,12 @@ var randomCrystalNum4 = Math.floor(Math.random() * ((12 - 1) + 1) + 1);
 
 var numberOptions = [randomCrystalNum1, randomCrystalNum2, randomCrystalNum3, randomCrystalNum4];
 
+var imageOption1 = "assets/images/crystal_1.png";
+var imageOption2 = "assets/images/crystal_2.png";
+var imageOption3 = "assets/images/crystal_3.png";
+var imageOption4 = "assets/images/crystal_4.png";
+
+var imageOptions = [imageOption1, imageOption2, imageOption3, imageOption4 ];
 
  console.log(numberOptions);
 
@@ -48,7 +54,7 @@ for (var i = 0; i < numberOptions.length; i++) {
     crystalImg.addClass("crystal-image");
 
     // Each imageCrystal will be given a src link to the crystal image
-    crystalImg.attr("src", "assets/images/crystal_1.png");
+    crystalImg.attr("src", imageOptions[i]);
 
     // Each imageCrystal will be given a data attribute called data-crystalValue.
     // This data attribute will be set equal to the array value.
@@ -84,14 +90,17 @@ $(".crystal-image").on("click", function () {
         alert("You win!");
         wins++;
         $("#wins").text(wins);
+
     }
 
     else if (counter >= randomNum) {
         alert("You lose!!");
         losses++;
         $("#losses").text(losses);
+
     }
 
 
 
 });
+

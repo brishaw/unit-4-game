@@ -55,6 +55,10 @@ code {
   margin-top: 25px;
 }
 
+#crystals {
+  text-align: center;
+}
+
 #crystals img {
   cursor: pointer;
   outline: none;
