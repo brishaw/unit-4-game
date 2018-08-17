@@ -72,22 +72,16 @@ code {
   margin-right: 0;
 }
 
-/* #btn1 {
-  background: url(../images/crystal_1.png) center center no-repeat;
-}
-
-#btn2 {
-  background: url(../images/crystal_2.png) center center no-repeat;
-}
-
-#btn3 {
-  background: url(../images/crystal_3.png) center center no-repeat;
-}
-
-#btn4 {
-  background: url(../images/crystal_4.png) center center no-repeat;
-} */
-
 .mt-25 {
   margin-top: 25px;
+}
+
+.crystal-image {
+  -webkit-filter: drop-shadow(0px 0px 7px #777777);
+  filter: drop-shadow(0px 0px 7px #777777);
+}
+
+.crystal-image:hover {
+  filter: drop-shadow(0px 0px 7px #777777);
+  transform: scale(.8);
 }
