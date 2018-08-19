@@ -195,10 +195,10 @@ $(".crystal-image").on("click", function () {
 // toggle switch for instructions
 
 $("#hider").click(function() {
-    $("#hidden").toggle("slow");
+    $("#hidden").slideToggle("slow");
 })
 $("#exit").click(function () {
-    $("#hidden").toggle("slow");
+    $("#hidden").slideToggle("slow");
 })
 
 // **** the following javascript is for the Matrix background and credit goes to a pen by Ebram Marzouk https://codepen.io/P3R0/pen/MwgoKv ****//
