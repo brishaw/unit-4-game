@@ -65,7 +65,7 @@ for (var i = 0; i < numberOptions.length; i++) {
 
     // First each crystal will be given the class ".crystal-image".
     // This will allow the CSS to take effect.
-    crystalImg.addClass("crystal-image");
+    crystalImg.addClass("crystal-image col-sm-3");
 
     // Each imageCrystal will be given a src link to the crystal image
     crystalImg.attr("src", imageOptions[i]);
@@ -197,7 +197,9 @@ $(".crystal-image").on("click", function () {
 $("#hider").click(function() {
     $("#hidden").toggle("slow");
 })
-
+$("#exit").click(function () {
+    $("#hidden").toggle("slow");
+})
 
 // **** the following javascript is for the Matrix background and credit goes to a pen by Ebram Marzouk https://codepen.io/P3R0/pen/MwgoKv ****//
 
